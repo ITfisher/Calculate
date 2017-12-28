@@ -1,0 +1,39 @@
+body{
+    color:#2C3E50;
+    font-size: 2em;
+}
+#button_panel{
+    display: block;
+    border-style: solid;
+    border-radius: 8px;
+    width: 420px;
+    margin:auto;
+    text-align: center;
+    border-color: #7F8C8D;
+}
+#show_panel{
+    display: block;
+    height: 50px;
+    width: 400px;
+    border-style: solid;
+    border-color:#7F8C8D;
+    border-radius: 8px;
+    text-align: right;
+    line-height: 50px;
+    margin:auto;
+}
+button {
+    background-color: #7F8C8D;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.40);
+}
+.result{
+    width: 205px;
+}
